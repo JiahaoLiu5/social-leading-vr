@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Social Leading VR"
+abstract: >-
+  A Unity prototype for real-time movement coupling between two avatars in
+  networked social VR. One user's hands, and optionally position, partly drive
+  another user's avatar.
+authors:
+  - family-names: Liu
+    given-names: Jiahao
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+repository-code: "https://github.com/JiahaoLiu5/social-leading-vr"
+url: "https://jiahaoliu5.github.io/projects/"
+keywords:
+  - virtual reality
+  - social VR
+  - avatars
+  - movement coupling
+  - Unity
+  - OpenXR

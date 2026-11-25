@@ -1,0 +1,77 @@
+# Unity (based on github.com/github/gitignore, Unity.gitignore)
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory captures and recordings can be large and can hold sensitive data
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build output
+*.apk
+*.aab
+*.unitypackage
+*.app
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+crashlytics-build.properties
+
+# Packed Addressables and temporary Android assets
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Normcore editor state, regenerated on the first open
+/[Aa]ssets/Normal/Internal/
+/[Aa]ssets/Normal/Internal.meta
+
+# Local keys. Assets/Normal/Resources/NormcoreAppSettings.asset is tracked with an empty key:
+# run `git update-index --skip-worktree Assets/Normal/Resources/NormcoreAppSettings.asset`
+# after pasting your own key.
+openai_api_key.txt
+*.keystore
+
+# Release helpers
+/release_*.txt
+/release_*.log
+/capture.txt
+/shot.txt
+/[Aa]ssets/[Ee]ditor/_*
+
+# Operating system
+.DS_Store
+Thumbs.db
