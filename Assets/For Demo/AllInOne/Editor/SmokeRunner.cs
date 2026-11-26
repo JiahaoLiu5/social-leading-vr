@@ -34,7 +34,8 @@ public sealed class SmokeRunner
     private const int PictureWidth = 1920, PictureHeight = 1080;
 
     // Messages that are normal without a headset, a microphone, or a server.
-    private static readonly string[] Allowed = { "[Licensing", "Unable to start Oculus XR Plugin", "No active XR", "XRSettings" };
+    // "Cancelling DisplayDialog": in batch mode Unity closes dialogs of packages, such as Normcore's update notice in a fresh clone, and logs it as an error.
+    private static readonly string[] Allowed = { "[Licensing", "Unable to start Oculus XR Plugin", "No active XR", "XRSettings", "Cancelling DisplayDialog" };
 
     private static readonly Regex KeyShape = new Regex("key\\W{0,6}[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}", RegexOptions.IgnoreCase);
 
