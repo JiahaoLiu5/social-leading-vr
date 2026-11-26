@@ -1,0 +1,24 @@
+{
+    "name": "SocialLeading.Demo",
+    "rootNamespace": "",
+    "references": [
+        "DemoKit",
+        "Normal.Realtime.Shared",
+        "Unity.Animation.Rigging",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.XR.Management",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

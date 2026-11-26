@@ -1,0 +1,27 @@
+{
+    "name": "SocialLeading.AllInOne.Editor",
+    "rootNamespace": "",
+    "references": [
+        "SocialLeading.Demo",
+        "DemoKit",
+        "Normal.Realtime.Shared",
+        "Unity.Animation.Rigging",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.XR.Management",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

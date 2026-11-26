@@ -1,0 +1,603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f03a1f9943b3d3418b36d2aab7d003b, type: 3}
+  m_Name: Dyad Study Script
+  m_EditorClassIdentifier: 
+  steps:
+  - id: wave
+    title: Wave and say hi
+    clip: {fileID: 8300000, guid: 9bdf0d7e6f1317342b5652d106a9e016, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Welcome to the social chatting room.
+    - start: 2.5
+      end: 0
+      text: In front of you, you can see your partner.
+    - start: 5.3
+      end: 0
+      text: Please wave and say hi to your partner.
+    hint: Wave to your partner.
+    responseSeconds: 10
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 5.2
+      place: 0
+      distance: 0.85
+      motion: 1
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: handshake
+    title: Shake hands
+    clip: {fileID: 8300000, guid: e1ef7f629061c3c4fb844c4d3775aeb3, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Great! Please come closer to each other
+    - start: 3.5
+      end: 0
+      text: and shake hands with your partner.
+    hint: Walk closer and shake hands.
+    responseSeconds: 15
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 0
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 2.5
+      place: 2
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 2
+      distance: 0.85
+      motion: 11
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: highfive
+    title: High five
+    clip: {fileID: 8300000, guid: 4f84e721651ff4b429bbbadf5eb458e5, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Excellent! Today, you will be completing several interaction tasks with
+        your partner.
+    - start: 6.2
+      end: 0
+      text: Please high-five with your partner to mark the beginning of today's journey.
+    hint: High five.
+    responseSeconds: 10
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 2
+      distance: 0.75
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 7.4
+      place: 2
+      distance: 0.75
+      motion: 10
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: mirror
+    title: Movements at the mirror
+    clip: {fileID: 8300000, guid: d8c71c98d4b9fe146b9553739d89a361, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Great! On one side of the room, there is a mirror.
+    - start: 4.5
+      end: 0
+      text: Please turn to the mirror side and perform the following movements.
+    - start: 10.7
+      end: 0
+      text: Tilt and nod your head.
+    - start: 15.4
+      end: 0
+      text: Raise your left hand above your head and then lower it down.
+    - start: 22.2
+      end: 0
+      text: Raise your right hand above your head and then lower it down.
+    - start: 29.2
+      end: 0
+      text: Raise your two hands above your head and then lower them down.
+    hint: Turn to the mirror and follow the movements.
+    responseSeconds: 15
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 0
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 5
+      place: 3
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 12.2
+      place: 3
+      distance: 0.85
+      motion: 6
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 14.7
+      place: 3
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 17
+      place: 3
+      distance: 0.85
+      motion: 7
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 21
+      place: 3
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 23.5
+      place: 3
+      distance: 0.85
+      motion: 8
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 27.5
+      place: 3
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 30.5
+      place: 3
+      distance: 0.85
+      motion: 9
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 3
+      place: 3
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: free
+    title: Free movement
+    clip: {fileID: 8300000, guid: 229ceddf3bcb9734f9d713cfb024f996, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Fantastic! Now for the next 15 seconds.
+    - start: 4.4
+      end: 0
+      text: Please relax and you can perform any movements you want
+    - start: 8.1
+      end: 0
+      text: to familiarize with yourself, your partner, and the environment.
+    hint: Move freely.
+    responseSeconds: 15
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 0
+    usualShare: 1
+    showTimer: 1
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 0
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 0
+      distance: 0.85
+      motion: 5
+      alternate: 4
+      interval: 4
+    botDoneSeconds: 8
+  - id: intro
+    title: Introduce yourself
+    clip: {fileID: 8300000, guid: 05d92f2c2070c2542bad7fd8ae5fd9d1, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Excellent! Now, please turn and face your partner.
+    - start: 4.5
+      end: 0
+      text: You can do a self-introduction to your partner.
+    - start: 7.5
+      end: 0
+      text: Whoever of you can start first.
+    hint: Introduce yourself.
+    responseSeconds: 45
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 2
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 3
+      alternate: 0
+      interval: 8
+    botDoneSeconds: 8
+  - id: intro-more
+    title: Say more about yourself
+    clip: {fileID: 8300000, guid: fc2f637893f304045be9efec70fbf3e3, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Great! Can both of you say a little bit more about yourself?
+    hint: Say a bit more about yourself.
+    responseSeconds: 60
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 3
+      alternate: 0
+      interval: 8
+    botDoneSeconds: 8
+  - id: topic
+    title: Debate topic
+    clip: {fileID: 8300000, guid: 047bef600beeabb4ea3bb3207b4ec54b, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Fantastic! Next, you will be doing an idea generation and debate task
+        with your partner.
+    - start: 7.1
+      end: 0
+      text: The topic that you will be debating is the impact of social media on
+        social interactions.
+    - start: 12.8
+      end: 0
+      text: Specifically, does social media bring people together or drive them further
+        apart?
+    - start: 18.1
+      end: 0
+      text: There are two instruction boards on one side of the room.
+    - start: 21.4
+      end: 0
+      text: Each of you please come to one of the boards and you can see the context
+        information there.
+    hint: Walk to one of the two boards on the wall.
+    responseSeconds: 40
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 1
+    usualShare: 1
+    showTimer: 0
+    cues:
+    - boards
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 4
+      place: 4
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: standpoint
+    title: Think about your position
+    clip: {fileID: 8300000, guid: 9a680b5ab4026a04486057ff667fcb38, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Now, the point of view that you will be debating for is shown to you.
+    - start: 4.6
+      end: 0
+      text: You will now have one minute to think about your argument
+    - start: 8.2
+      end: 0
+      text: and supporting evidence before we come to the debate.
+    hint: The board you stand at shows your position. Think about your arguments.
+    responseSeconds: 60
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 0
+    usualShare: 1
+    showTimer: 1
+    cues:
+    - standpoint
+    bots:
+    - clock: 0
+      at: 0
+      place: 4
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 0
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: debate
+    title: Debate
+    clip: {fileID: 8300000, guid: 73c8c4c6bf97cdd4fbb6fc7aa24c7c35, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Great! For the next three minutes,
+    - start: 3.3
+      end: 0
+      text: please propose your point of view and debate with your partner.
+    - start: 6.9
+      end: 0
+      text: You can start now.
+    hint: Debate with your partner.
+    responseSeconds: 180
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 0
+    usualShare: 1
+    showTimer: 1
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 2
+      distance: 1.2
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 1
+      at: 0
+      place: 2
+      distance: 1.2
+      motion: 3
+      alternate: 0
+      interval: 6
+    botDoneSeconds: 8
+  - id: ratings
+    title: Two questions
+    clip: {fileID: 8300000, guid: 565904d7891022a41b3235d2ff6362d7, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Great! Thanks for the exciting debate.
+    - start: 3.7
+      end: 0
+      text: Now, you will be shown two quick questions,
+    - start: 6.8
+      end: 0
+      text: please come to the front of the white board that is shown in the room,
+    - start: 10.8
+      end: 0
+      text: and answer based on your experience.
+    - start: 13.7
+      end: 0
+      text: Please indicate that you have finished by raising your left hand.
+    hint: Answer the two questions at the white board.
+    responseSeconds: 120
+    quickSeconds: 45
+    minResponseSeconds: 2
+    rule: 2
+    usualShare: 0.42
+    showTimer: 0
+    cues:
+    - ratings
+    - raise-hand
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: split-brief
+    title: Split task instruction
+    clip: {fileID: 8300000, guid: 115a9c85e5c3d9842b7e2336b430fb76, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: Excellent! Please give yourself a round of applause for completing the
+        debate task.
+    - start: 7.8
+      end: 0
+      text: Next, you will come to the final task, which is a money-splitting task
+        with your partner.
+    - start: 14.1
+      end: 0
+      text: Here is the instruction for the task. Please listen carefully.
+    - start: 18.6
+      end: 0
+      text: A pool of $100 will be split between you two.
+    - start: 23.3
+      end: 0
+      text: There will be two rounds of splitting.
+    - start: 25.8
+      end: 0
+      text: In each round, both of you will propose splits.
+    - start: 29.4
+      end: 0
+      text: Then both of your splits will either be accepted or rejected by your
+        partner.
+    - start: 34.1
+      end: 0
+      text: You will also know your partner's decision on your proposed split later.
+    - start: 38.6
+      end: 0
+      text: If the split is accepted, the money will be shared as it is.
+    - start: 43.2
+      end: 0
+      text: While if the split is rejected, then neither of you would receive the
+        money.
+    hint: Listen to the instruction.
+    responseSeconds: 5
+    quickSeconds: -1
+    minResponseSeconds: 2
+    rule: 0
+    usualShare: 1
+    showTimer: 0
+    cues: []
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 4
+      place: 1
+      distance: 0.85
+      motion: 12
+      alternate: 0
+      interval: 0
+    - clock: 0
+      at: 7.5
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 8
+  - id: split
+    title: Split task
+    clip: {fileID: 8300000, guid: c3278548ca0cd8542a4663b32e44d431, type: 3}
+    captions:
+    - start: 0
+      end: 0
+      text: When you are ready, please stay in front of the whiteboard.
+    - start: 3.8
+      end: 0
+      text: Remember that you only stand for your own benefit in this task
+    - start: 7.7
+      end: 0
+      text: and will provide your own split and decision.
+    - start: 10.8
+      end: 0
+      text: So please do not talk and discuss with your partner.
+    hint: Propose splits and decide on your partner's splits.
+    responseSeconds: 180
+    quickSeconds: 75
+    minResponseSeconds: 2
+    rule: 2
+    usualShare: 0.42
+    showTimer: 0
+    cues:
+    - split
+    bots:
+    - clock: 0
+      at: 0
+      place: 1
+      distance: 0.85
+      motion: 0
+      alternate: 0
+      interval: 0
+    botDoneSeconds: 12
+  countdownStudy: 5
+  countdownQuick: 3
+  gapStudy: 1
+  gapQuick: 0.5

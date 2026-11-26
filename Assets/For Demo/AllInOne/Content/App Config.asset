@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150541677d3157941990b48b940aa57c, type: 3}
+  m_Name: App Config
+  m_EditorClassIdentifier: 
+  roleNote: In the actual study, participants did not know that there were different
+    roles or that movement was modulated. Roles were assigned at random.
+  keyHint: Online rooms need a Normcore app key. See docs/VR_SETUP.md.
+  comfortNote: Your viewpoint also follows a share of the Leader's steps. Take the
+    headset off if you feel unwell.
+  finishNote: In the study, the offers and replies in the last task were scripted
+    by the program. Your answers are only on this device.
+  roomPrefix: sl-dyad-aio1-r
+  soloRoom: solo
+  roomCount: 9
+  eyeHeight: 1.6
+  lobbyPosition: {x: 0.35, y: 0, z: 0}
+  lobbyYaw: 90
+  lobbyDesktopYaw: 62
+  desktopPitch: 4
+  startPanelPosition: {x: 1.55, y: 1.38, z: 0.95}
+  watchPosition: {x: -2.6, y: 0, z: 0}
+  operatorDesktopPosition: {x: -3.05, y: 0, z: 0}
+  operatorDesktopEyeHeight: 1.14
+  operatorDesktopYaw: 77
+  operatorDesktopPanelPosition: {x: -2.3, y: 1.18, z: 0.87}
+  watchYaw: 90
+  operatorPanelPosition: {x: -1.83, y: 1.35, z: 0.92}
+  walkMin: {x: -2.7, y: 0, z: -4.3}
+  walkMax: {x: 2.7, y: 0, z: 3.4}
+  roles: {fileID: 11400000, guid: 5a635cc44bda71945b91c49dd4d6f20a, type: 2}
+  avatars: {fileID: 11400000, guid: d08a66621a2d83d41b0014b8353c9dfc, type: 2}
+  topologies: {fileID: 11400000, guid: 5190be3ff5226e64085051518b3f2d71, type: 2}
+  script: {fileID: 11400000, guid: 3a2fa480ebdea4b4082100422e15f482, type: 2}
+  studyProfile: {fileID: 11400000, guid: 2c274aca3ae3b3c4cbf74b10bb4e12ce, type: 2}
+  playProfile: {fileID: 11400000, guid: 2b191250b5ea9e6409b5bc8234238354, type: 2}
+  playMaxPositionOffset: 0.6

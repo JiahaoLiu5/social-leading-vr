@@ -6,40 +6,76 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SocialLeading/Demo/DesktopDemo.unity
+    path: Assets/For Demo/Scenes/AllInOne.unity
+    guid: 834913bfebe46e342b16b3c8b0ef60bd
+  - enabled: 0
+    path: Assets/For Demo/Scenes/DesktopDemo.unity
     guid: 9eb161ea2683b64408c6b0eff3ce8c72
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Leader/SLSL_P1.unity
-    guid: e2f892ba002bb8945bc906662ded07f6
+    path: Assets/For Demo/Scenes/Follower/SLSF_P1.unity
+    guid: cfeb509e22f0197679d3cc648c6737bf
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Leader/SLSL_P2.unity
-    guid: 3e4f97cd493e9564a8bf6660eaebc858
+    path: Assets/For Demo/Scenes/Follower/SLSF_P2.unity
+    guid: bb5204aa8a852af79502054a124f63ac
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Leader/SLSL_P3.unity
-    guid: 242a1b37cf261cf4f8ebc196f922acf5
+    path: Assets/For Demo/Scenes/Follower/SLSF_P3.unity
+    guid: f97fd7dccbf013a7b271a4c836903746
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Leader/SLSL_P4.unity
-    guid: dc7f2c7f4ebd7e84bb431b589870e3a9
+    path: Assets/For Demo/Scenes/Follower/SLSF_P4.unity
+    guid: 143fb01256e267e8de8322db1e6ed1f1
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Leader/SLSL_P5.unity
-    guid: 654cb5cf9c9234e4fba455790691dab2
+    path: Assets/For Demo/Scenes/Follower/SLSF_P5.unity
+    guid: 794d9f6201df438640bd6f53f00258dd
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Follower/SLSF_P1.unity
+    path: Assets/For Demo/Scenes/Leader/SLSL_P1.unity
+    guid: 0efc1341d7d974c3a5034499654ba482
+  - enabled: 0
+    path: Assets/For Demo/Scenes/Leader/SLSL_P2.unity
+    guid: a03f3059a860f8e963b97a73b17bf043
+  - enabled: 0
+    path: Assets/For Demo/Scenes/Leader/SLSL_P3.unity
+    guid: e2163f6f6e0861187b7f28f5dd5439eb
+  - enabled: 0
+    path: Assets/For Demo/Scenes/Leader/SLSL_P4.unity
+    guid: 42e3cee68fd9bc2e8f9edad768aca14d
+  - enabled: 0
+    path: Assets/For Demo/Scenes/Leader/SLSL_P5.unity
+    guid: 34abdd8446393d0a3fcc64e1485c3d95
+  - enabled: 0
+    path: Assets/For Demo/Scenes/Monitor/Monitor.unity
+    guid: 07d2b1e69682002237ab01a04a0a8cb1
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Follower/SLSF_P1.unity
     guid: 6f1651eacb9978a40a61810dd0e04e9d
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Follower/SLSF_P2.unity
+    path: Assets/For Study/Scenes/System Final Scene/Follower/SLSF_P2.unity
     guid: 984f68b82cf6a1a498d108dcf5d59077
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Follower/SLSF_P3.unity
+    path: Assets/For Study/Scenes/System Final Scene/Follower/SLSF_P3.unity
     guid: e42e23950340d4f4aa14d23359f7eb1c
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Follower/SLSF_P4.unity
+    path: Assets/For Study/Scenes/System Final Scene/Follower/SLSF_P4.unity
     guid: f5c23b40522e5424b93de618c981888b
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Follower/SLSF_P5.unity
+    path: Assets/For Study/Scenes/System Final Scene/Follower/SLSF_P5.unity
     guid: c8de9c7ab75e89745a7fbe989a76bed7
   - enabled: 0
-    path: Assets/SocialLeading/Scenes/Monitor/Monitor.unity
+    path: Assets/For Study/Scenes/System Final Scene/Leader/SLSL_P1.unity
+    guid: e2f892ba002bb8945bc906662ded07f6
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Leader/SLSL_P2.unity
+    guid: 3e4f97cd493e9564a8bf6660eaebc858
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Leader/SLSL_P3.unity
+    guid: 242a1b37cf261cf4f8ebc196f922acf5
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Leader/SLSL_P4.unity
+    guid: dc7f2c7f4ebd7e84bb431b589870e3a9
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Leader/SLSL_P5.unity
+    guid: 654cb5cf9c9234e4fba455790691dab2
+  - enabled: 0
+    path: Assets/For Study/Scenes/System Final Scene/Monitor/system monitor Test.unity
     guid: 66f1dbb25ba84b44c97cb8b4f095421b
   m_configObjects:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 19ae6a0d2485c934fb017008b8911370, type: 2}

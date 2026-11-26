@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41fb2acc259ea8244935fee48a7bdc44, type: 3}
+  m_Name: Avatar Catalog
+  m_EditorClassIdentifier: 
+  avatars:
+  - id: avatar-1
+    label: Avatar 1
+    resourcePath: AllInOne/Characters/Demo Character 1
+    thumbnail: {fileID: 2800000, guid: a4d3ca5c1ad2db84cb338df559870f80, type: 3}
+  - id: avatar-2
+    label: Avatar 2
+    resourcePath: AllInOne/Characters/Demo Character 2
+    thumbnail: {fileID: 2800000, guid: 4c8fded50a4fb8e468523ad679706953, type: 3}
+  - id: avatar-3
+    label: Avatar 3
+    resourcePath: AllInOne/Characters/Demo Character 3
+    thumbnail: {fileID: 2800000, guid: c6d4517237f77f046b28d9cf00a2eb03, type: 3}
+  - id: avatar-4
+    label: Avatar 4
+    resourcePath: AllInOne/Characters/Demo Character 4
+    thumbnail: {fileID: 2800000, guid: 4208ba490207466488a0d51f43314a85, type: 3}
+  - id: avatar-5
+    label: Avatar 5
+    resourcePath: AllInOne/Characters/Demo Character 5
+    thumbnail: {fileID: 2800000, guid: 8e0c3f4fa44a2684ca70c5c37c565601, type: 3}

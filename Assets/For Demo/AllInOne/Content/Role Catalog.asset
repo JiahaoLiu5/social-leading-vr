@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78eb1985c1b06e84eb7564272650f275, type: 3}
+  m_Name: Role Catalog
+  m_EditorClassIdentifier: 
+  roles:
+  - id: leader
+    label: Leader
+    sentence: Your avatar moves exactly as you do. A share of your movement also
+      moves the other person's avatar.
+    tag: LeaderTag
+    seatPosition: {x: 0, y: 0, z: -1.5}
+    seatYaw: 0
+  - id: follower
+    label: Follower
+    sentence: Your avatar is mostly your own movement, plus a share of the Leader's
+      movement.
+    tag: FollowerTag
+    seatPosition: {x: 0, y: 0, z: 1.5}
+    seatYaw: 180

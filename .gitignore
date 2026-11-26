@@ -75,3 +75,6 @@ openai_api_key.txt
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Written by Unity on this machine
+.vsconfig
